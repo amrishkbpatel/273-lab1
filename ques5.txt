@@ -1,0 +1,7 @@
+Defer schedules a function call after the 
+function is complete, panic causes a run 
+time error and recover stops the panic and 
+returns the value passed to the call to panic
+. You can recover from a run-time panic by 
+paring together the recover function before
+ the panic.
